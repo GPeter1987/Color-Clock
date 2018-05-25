@@ -1,0 +1,42 @@
+/*<== Reset ==>*/
+* { margin: 0; padding: 0; }
+
+/*<== Style ==>*/
+html,body {
+  height:100%;
+}
+
+#clock {
+  text-align:center;
+  position:relative;
+  top:50%;
+  left:35%;
+  width:30%;
+  font-family: 'Modern Antiqua', cursive;
+  font-size:5rem;
+  margin-top:-2.5rem;
+  padding:15px;
+  border:2px solid white;
+  background-color:black;
+  color:white;
+  border-radius:15px;
+}
+
+#clock:hover {
+  background-color:white;
+  color:black;
+  border:2px solid black;
+}
+
+@media(max-width:1050px){
+  #clock {
+  width:10rem;
+  position:fixed;
+  top:3rem;
+  left:4rem;
+  font-size:2rem;
+}
+  body {
+    width:100vw;
+  }
+}
