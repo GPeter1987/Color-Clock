@@ -16,3 +16,5 @@ I made this clock for practicing javascript.
 
 
 # Live version
+
+https://gpeter1987.github.io/Color-Clock/
